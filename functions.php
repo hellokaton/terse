@@ -10,7 +10,7 @@ function themeConfig($form) {
     $cnzzCode = new Typecho_Widget_Helper_Form_Element_Text('cnzzCode', NULL, _t(''), _t('统计代码'), _t('输入统计代码，没有则留空'));
     $form->addInput($cnzzCode);
 		
-    $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
+    /*$sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
         'ShowSearch' => _t('显示搜索框'),
         'ShowRecentPosts' => _t('显示最新文章'),
         'ShowRecentComments' => _t('显示最近回复'),
@@ -25,7 +25,7 @@ function themeConfig($form) {
         'ShowLoadTime' => _t('页脚显示加载耗时')
         ),
     array('ShowLogin'), _t('杂项'));
-    $form->addInput($misc->multiMode());
+    $form->addInput($misc->multiMode());*/
 }
 
 function timer_start() {
