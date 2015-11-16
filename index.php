@@ -13,18 +13,22 @@ $this->need('header.php'); ?>
 		<?php while($this->next()): ?>
 			<div class="entry">
 				<div class="entry-left">
-					<h2 class="entry-title">
+					<h1 class="entry-title">
 						<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
-					</h2>
+					</h1>
+					<div class="entry-meta" itemprop="keywords">
+						<span>by <a href="<?php $this->author->permalink(); ?>"><?php $this->author() ?></a> · 
+						<?php $this->date('Y-m-d');?></span> · <?php $this->category(','); ?>
+					</div>
 				</div>
 				<div class="entry-content">			
 					<?php $this->content(''); ?>
 				</div>
-				<div class="post-tags" itemprop="keywords">
+				<div class="post-tags">
 					<?php $this->tags(' ', true, ''); ?>
 				</div>
 				<div class="more">			
-					<a class="btn" href="<?php $this->permalink() ?>">查看全文</a>
+					<a class="btn" href="<?php $this->permalink() ?>">阅读全文 »</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
