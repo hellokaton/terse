@@ -175,16 +175,29 @@ img {
   color:#333;
   margin:0 0 5px;
   font-size:24px;
+
   font-family:"Microsoft Jhenghei","Microsoft YaHei","微软雅黑","Droid Serif",Georgia,Serif;
 }
 .entry-title a {
-  color:#333
+  color:#333;
 }
 .entry-title a:hover {
   color:#4d4c4d;
   text-decoration:none;
 }
-.entry h1,h2,h3,h4,h5 {
+
+.entry-left h1{
+  background-color:#F7F7F7;
+  color:#33363B;
+  font-weight:normal;
+  padding:5px 0 5px 15px;
+
+  font-size: 1.8em;
+  border-left: 10px solid #7fc042;
+  padding-left: 0.5em;
+}
+
+.entry-content h1,h2,h3,h4,h5 {
   background-color:#F7F7F7;
   border-left:3px solid #449FE6;
   color:#33363B;
@@ -210,7 +223,7 @@ img {
   font-size:12px
 }
 .entry-content {
-  margin-top:80px;
+  margin-top:100px;
   margin-bottom:15px;
   color:#424141;
   padding:0 18px;
