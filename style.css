@@ -186,7 +186,18 @@ img {
   text-decoration:none;
 }
 
-.entry-left,.archive_list h1{
+.entry-left h1{
+  background-color:#F7F7F7;
+  color:#33363B;
+  font-weight:normal;
+  padding:5px 0 5px 15px;
+
+  font-size: 1.8em;
+  border-left: 10px solid #7fc042;
+  padding-left: 0.5em;
+}
+
+.archive_list h1{
   background-color:#F7F7F7;
   color:#33363B;
   font-weight:normal;
