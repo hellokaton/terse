@@ -197,6 +197,16 @@ img {
   padding-left: 0.5em;
 }
 
+.entry-content {
+  margin-top:100px;
+  margin-bottom:15px;
+  color:#424141;
+}
+
+.entry-content p{
+  padding:0 18px;
+}
+
 .entry-content h1,h2,h3,h4,h5 {
   background-color:#F7F7F7;
   border-left:3px solid #449FE6;
@@ -222,12 +232,7 @@ img {
   text-decoration:none;
   font-size:12px
 }
-.entry-content {
-  margin-top:100px;
-  margin-bottom:15px;
-  color:#424141;
-  padding:0 18px;
-}
+
 .post {
   padding:20px 18px;
   border-bottom:1px solid #f2f2f2;
@@ -236,16 +241,16 @@ img {
   border:1px solid #eaeaea;
   border-radius:4px;
 }
+
 .post-content {
   margin:15px 0;
   background-color:#fff;
-  padding:0 18px;
   padding-top: 70px;
 }
 
 .post-content img{max-width:100%;width:auto;height:auto;}
 .post-content hr{width:14%;}
-.post-content p{line-height:2em;}
+.post-content p{line-height:2em; padding:0 18px;}
 .post-tags{margin:20px 0;color:#b7b7b7;font-size:13px;padding:0 18px;}
 .post-tags a{padding:4px 8px;margin-right:5px;background-color:#E4E4E4;color:#828286;border-radius:3px;text-decoration:none;font-size:12px}
 .post-tags a:hover{color:#b7b7b7; background-color: #4d4c4d;}
@@ -305,8 +310,8 @@ blockquote.pull-right small:after{content:'\00A0 \2014'}
 q:before,q:after,blockquote:before,blockquote:after{content:""}
 address{display:block;margin-bottom:20px;font-style:normal;line-height:1.428571429}
 code,pre{font-family:Monaco,Menlo,Consolas,"Courier New",monospace}
-code{padding:2px 4px;font-size:90%;color:#162029;background-color:#e9edf0;white-space:nowrap;border-radius:4px}
-pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#eee;background-color:#282828;border:1px solid rgba(102,128,153,0.075);border-radius:4px}
+code{padding:2px 4px;font-size:90%;color:#162029;background-color:#e9edf0;white-space:nowrap;}
+pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#eee;background-color:#282828;border:1px solid rgba(102,128,153,0.075);}
 pre.prettyprint{margin-bottom:20px}
 pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border:0}
 
@@ -326,7 +331,7 @@ h4,h5,h6{margin:25px 0 15px}
 p,pre,pre.prettyprint,blockquote{margin:0 0 15px}
 hr{margin:40px auto 30px auto;border:0;border-top:1px solid #EAEAEA;}
 code,pre{font-family:Menlo,Consolas,"Courier New",monospace;font-size:12px !important}
-pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:10px solid rgba(102,128,153,0.75);border-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:10px 15px}
+pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:10px solid rgba(102,128,153,0.75);border-radius:0;padding:10px 15px}
 pre code,pre.prettyprint code{background-color:transparent !important}
 dt,dd{margin-top:5px;margin-bottom:5px}
 dd{margin-left:40px}
