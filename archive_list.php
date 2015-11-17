@@ -7,7 +7,7 @@
 $this->need('header.php'); ?>
 	<div class="content">
 		<div class="container">
-			<div class="entry">
+			<div class="entry archive_list">
 				<h1 class="entry-title">
 					<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
 				</h1>

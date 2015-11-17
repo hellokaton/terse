@@ -186,7 +186,7 @@ img {
   text-decoration:none;
 }
 
-.entry-left h1{
+.entry-left,.archive_list h1{
   background-color:#F7F7F7;
   color:#33363B;
   font-weight:normal;
@@ -275,6 +275,10 @@ img {
 .pager .next a{float:right;margin-right:-174px;padding:8px 0;}
 .pager .next span{border-top-left-radius:5px;border-bottom-left-radius:5px;}
 .pager .next:hover a{margin-right:0;}
+
+.archive_list .post-content{
+  padding: 0 18px;
+}
 
 .archive_list ul,li{
   list-style: none;
