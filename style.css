@@ -297,8 +297,14 @@ img {
 
 .footer{padding:25px 0;background-color:#292d33;color:#fff}
 .footer a{color:#fff;text-decoration:none}
+.footer a:hover{color:#60A9F7;}
 .footer-left{width:50%;float:left}
 .footer-right{width:50%;float:right;text-align:right}
+.footer-right li{
+  float: left;
+  padding-left: 10px;
+  text-align: left;
+}
 
 @media(max-width:768px){
 	.header{text-align:center;}

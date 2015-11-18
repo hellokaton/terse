@@ -20,8 +20,3 @@
 手机：
 
 ![](http://i.imgur.com/31vhhJD.png)
-
-## 计划
-
-- 加入fancybox
-- 添加InstantClick

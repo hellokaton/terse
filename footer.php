@@ -10,6 +10,9 @@
 		        <?php $this->options->cnzzCode() ?>
 		        <?php endif; ?>
 			</div>
+			<div class="footer-right">
+				<?php Links_Plugin::output(); ?>
+			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
