@@ -34,6 +34,10 @@
 	   $(".entry .fancy-ctn").fancybox();
 	</script>
 	<?php endif; ?>
-	<script type="text/javascript" src="<?php $this->options->themeUrl('main.js'); ?>"></script>
+	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
+	<?php if ( !empty($this->options->extPlugin) && in_array('UseInstantclick', $this->options->extPlugin) ) : ?>
+	<script src="<?php $this->options->themeUrl('js/instantclick.min.js'); ?>" data-no-instant></script>
+	<script data-no-instant>InstantClick.init();</script>
+	<?php endif; ?>
 </body>
 </html>

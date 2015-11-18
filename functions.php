@@ -11,9 +11,9 @@ function themeConfig($form) {
     $form->addInput($cnzzCode);
 	
     $extPlugin = new Typecho_Widget_Helper_Form_Element_Checkbox('extPlugin', array(
-        'UseFancybox' => _t('启用FancyBox')
-        ),
-    array('UseFancybox'), _t('杂项'));
+        'UseFancybox' => _t('启用FancyBox'),
+        'UseInstantclick' => _t('启用instantclick')),
+    array('UseFancybox', 'UseInstantclick'), _t('扩展项'));
     $form->addInput($extPlugin->multiMode());
 
     /*$sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
