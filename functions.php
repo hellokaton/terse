@@ -11,44 +11,8 @@ function themeConfig($form) {
     $form->addInput($cnzzCode);
 	
     $extPlugin = new Typecho_Widget_Helper_Form_Element_Checkbox('extPlugin', array(
-        'UseFancybox' => _t('启用FancyBox'),
-        'UseInstantclick' => _t('启用instantclick')),
-    array('UseFancybox', 'UseInstantclick'), _t('扩展项'));
+        'UseFancybox' => _t('启用FancyBox')),
+        // 'UseInstantclick' => _t('启用instantclick')
+    array('UseFancybox'), _t('扩展项'));
     $form->addInput($extPlugin->multiMode());
-
-    /*$sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
-        'ShowSearch' => _t('显示搜索框'),
-        'ShowRecentPosts' => _t('显示最新文章'),
-        'ShowRecentComments' => _t('显示最近回复'),
-        'ShowTags' => _t('显示标签'),
-        'ShowArchive' => _t('显示归档'),
-        'ShowOther' => _t('显示其它杂项')),
-    array('ShowRecentPosts', 'ShowRecentComments', 'ShowFriend', 'ShowOther'), _t('侧边栏显示'));
-    $form->addInput($sidebarBlock->multiMode());
-
-    $misc = new Typecho_Widget_Helper_Form_Element_Checkbox('misc', array(
-        'ShowLogin' => _t('前台显示登录入口'),
-        'ShowLoadTime' => _t('页脚显示加载耗时')
-        ),
-    array('ShowLogin'), _t('杂项'));
-    $form->addInput($misc->multiMode());*/
-}
-
-function timer_start() {
-    global $timestart;
-    $mtime = explode( ' ', microtime() );
-    $timestart = $mtime[1] + $mtime[0];
-    return true;
-}
-timer_start();
- 
-function timer_stop( $display = 0, $precision = 3 ) {
-    global $timestart, $timeend;
-    $mtime = explode( ' ', microtime() );
-    $timeend = $mtime[1] + $mtime[0];
-    $timetotal = $timeend - $timestart;
-    $r = number_format( $timetotal, $precision );
-    if ( $display )
-    echo $r;
-    return $r;
 }

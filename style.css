@@ -57,10 +57,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     filter: Alpha(opacity=60);
 }
 
-#instantclick-bar {
-  background: #4792FF;
-}
-
 body {
   background-color:#F6F6F3;
   color:#333;

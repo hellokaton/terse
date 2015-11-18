@@ -14,7 +14,7 @@
     <script type="text/javascript" src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
-	<!-- <div class="loading"></div> -->
+	<div class="loading"></div>
 	<script type="text/javascript">
 	$('.loading').animate({'width':'30%'},50);
 	</script>
