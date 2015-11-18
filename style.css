@@ -191,7 +191,7 @@ img {
   font-weight:normal;
   padding:5px 0 5px 15px;
 
-  font-size: 1.8em;
+  font-size: 1.5em;
   border-left: 10px solid #7fc042;
   padding-left: 0.5em;
 }
@@ -202,13 +202,14 @@ img {
   font-weight:normal;
   padding:5px 0 5px 15px;
 
-  font-size: 1.8em;
+  font-size: 1.5em;
   border-left: 10px solid #7fc042;
   padding-left: 0.5em;
 }
 
 .entry-content {
-  margin-top:100px;
+  width: 100%;
+  margin-top: 90px;
   margin-bottom:15px;
   color:#424141;
 }
@@ -253,6 +254,7 @@ img {
 }
 
 .post-content {
+  width: 100%;
   margin:15px 0;
   background-color:#fff;
   padding-top: 70px;
@@ -348,7 +350,7 @@ h6{font-size:10px}
 p,pre,pre.prettyprint,blockquote{margin:0 0 15px}
 hr{margin:40px auto 30px auto;border:0;border-top:1px solid #EAEAEA;}
 code,pre{font-family:Menlo,Consolas,"Courier New",monospace;font-size:14px !important}
-pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:10px solid rgba(102,128,153,0.75);border-radius:0;padding:10px 15px}
+pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:5px solid rgba(102,128,153,0.75);border-radius:0;padding:10px 15px}
 pre code,pre.prettyprint code{background-color:transparent !important}
 dt,dd{margin-top:5px;margin-bottom:5px}
 dd{margin-left:40px}
@@ -400,7 +402,6 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
 #respond #ds-thread #ds-reset li.ds-tab a.ds-comments-tab-weibo{display:none}
 @media(min-width:768px){
 	#respond #ds-thread #ds-reset .ds-comment-footer{position:absolute;top:0;right:0;line-height:1}
-  
 }
 @media screen and (max-width: 768px) {
     .header .avatar {
@@ -409,6 +410,13 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
     }
     .backToTop {
       right: 20px;
+    }
+    .entry-left h1{
+      font-size: 1em;
+    }
+
+    .archive_list h1{
+      font-size: 1em;
     }
 }
 @media screen and (max-width: 480px) {
@@ -421,5 +429,12 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
     }
     .entry-title {
       font-size: 16px;
+    }
+    .entry-left h1{
+      font-size: 1em;
+    }
+
+    .archive_list h1{
+      font-size: 1em;
     }
 }
