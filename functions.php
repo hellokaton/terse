@@ -9,7 +9,13 @@ function themeConfig($form) {
 
     $cnzzCode = new Typecho_Widget_Helper_Form_Element_Text('cnzzCode', NULL, _t(''), _t('统计代码'), _t('输入统计代码，没有则留空'));
     $form->addInput($cnzzCode);
-		
+	
+    $extPlugin = new Typecho_Widget_Helper_Form_Element_Checkbox('extPlugin', array(
+        'UseFancybox' => _t('启用FancyBox')
+        ),
+    array('UseFancybox'), _t('杂项'));
+    $form->addInput($extPlugin->multiMode());
+
     /*$sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
         'ShowSearch' => _t('显示搜索框'),
         'ShowRecentPosts' => _t('显示最新文章'),
