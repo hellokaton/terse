@@ -14,9 +14,13 @@
 
 电脑：
 
-![](http://i.imgur.com/XPPVlbF.png)
+![](http://i.imgur.com/6kZUzXU.png)
+
+PAD:
+
+![](http://i.imgur.com/NW7PXqo.png)
 
 手机：
 
-![](http://i.imgur.com/31vhhJD.png)
-
+![](http://i.imgur.com/RcW44BE.png)
+ 
