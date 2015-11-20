@@ -1,20 +1,23 @@
-<!-- å¤šè¯´è¯„è®ºæ¡† start -->
-<div id="respond">
-    <?php if($this->allow('comment')): ?>
-        <div class="ds-thread" data-thread-key="<?php $this->cid(); ?>" data-title="<?php $this->title(); ?>" data-url="<?php $this->permalink(); ?>"></div>
-    <?php endif; ?>
+<div id="comments"> 
+<?php if($this->allow('comment')): ?>
+<!-- ¶àËµÆÀÂÛ¿ò start -->
+	<div class="ds-thread" data-thread-key="<?php echo $this->cid;?>" data-title="<?php echo $this->title;?>" data-author-key="<?php echo $this->authorId;?>" data-url=""></div>
+<!-- ¶àËµÆÀÂÛ¿ò end -->
+<!-- ¶àËµ¹«¹²JS´úÂë start (Ò»¸öÍøÒ³Ö»Ðè²åÈëÒ»´Î) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"blog-biezhi"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- ¶àËµ¹«¹²JS´úÂë end -->
+
+<?php else: ?>
+<h4><?php _e('ÆÀÂÛÒÑ¹Ø±Õ'); ?></h4> 
+<?php endif; ?> 
 </div>
-<!-- å¤šè¯´è¯„è®ºæ¡† end -->
-<!-- å¤šè¯´å…¬å…±JSä»£ç  start (ä¸€ä¸ªç½‘é¡µåªéœ€æ’å…¥ä¸€æ¬¡) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"blog-biezhi"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-<!-- å¤šè¯´å…¬å…±JSä»£ç  end -->

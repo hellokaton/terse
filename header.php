@@ -11,7 +11,7 @@
     <link rel="Bootmark" href="<?php $this->options->siteIcon() ?>" />
 	<?php endif; ?>	
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-    <script type="text/javascript" src="//dn-biezhi.qbox.me/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="//dn-biezhi.qbox.me/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 	<div class="loading"></div>

@@ -62,7 +62,7 @@ body {
   color:#333;
   background:url(./img/bg.png);
   overflow-x:hidden;
-  font:16px/1.6 Avenir, Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif;
+  font:16px/1.6 Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,Droid Sans Fallback,SimSun,sans-serif;
 }
 a {
   color:#60A9F7;
@@ -289,10 +289,11 @@ img {
 .pager .next:hover a{margin-right:0;}
 
 .archive_list .post-content{
-  padding: 0 18px;
+    padding-top: 0;
 }
 
 .archive_list ul,li{
+  padding-left: 18px;
   list-style: none;
 }
 

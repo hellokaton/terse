@@ -11,7 +11,7 @@ $this->need('header.php'); ?>
 				<h1 class="entry-title">
 					<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
 				</h1>
-				<div class="post-content" itemprop="articleBody">
+				<div class="post-content pl18" itemprop="articleBody">
 	                <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->parse('<li><i>{year}-{month}-{day}</i> : <a href="{permalink}">{title}</a></li>'); ?>
 	            </div>
 			</div>	
