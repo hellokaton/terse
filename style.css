@@ -292,7 +292,7 @@ img {
     padding-top: 0;
 }
 
-.archive_list ul,li{
+.archive_list > .post-content li{
   padding-left: 18px;
   list-style: none;
 }
