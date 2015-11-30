@@ -190,10 +190,13 @@ img {
   color:#33363B;
   font-weight:normal;
   padding:5px 0 5px 15px;
-
   font-size: 1.5em;
-  border-left: 10px solid #7fc042;
+  border-left: 5px solid #7fc042;
   padding-left: 0.5em;
+}
+
+.music-player{
+	height: 145px;
 }
 
 .archive_list h1{
@@ -352,7 +355,7 @@ h6{font-size:10px}
 p,pre,pre.prettyprint,blockquote{margin:0 0 15px}
 hr{margin:40px auto 30px auto;border:0;border-top:1px solid #EAEAEA;}
 code,pre{font-family:Menlo,Consolas,"Courier New",monospace;font-size:14px !important}
-pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:5px solid rgba(102,128,153,0.75);border-radius:0;padding:10px 15px}
+pre,pre.prettyprint{border:0 solid rgba(102,128,153,0.075);border-left:2px solid rgba(102,128,153,0.75);border-radius:0;padding:10px 15px}
 pre code,pre.prettyprint code{background-color:transparent !important}
 dt,dd{margin-top:5px;margin-bottom:5px}
 dd{margin-left:40px}
