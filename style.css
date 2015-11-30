@@ -270,15 +270,15 @@ img {
 .post-related h2{font-size:16px}
 
 .pagination{padding:40px 0 20px;}
-.pagination a{padding:5px 16px;border-radius:50%;color:#999;background:#eee;font-size:20px;font-family:\5B8B\4F53;}
-.pagination a:hover{background-color:#57ad68;color:#fff;text-decoration:none}
+.pagination a{padding:5px 16px;border-radius:50%;color:#000000;background:#cccccc;font-size:20px;font-family:\5B8B\4F53;}
+.pagination a:hover{background-color:#333;color:#fff;text-decoration:none}
 .pagination .prev{float:left;}
 .pagination .next{float:right;}
 
 .pager{cursor:pointer;}
 .pager a{display:inline-block;width:150px;background:#eee;color:#999;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:margin 0.17s ease-in-out;}
 .pager a:hover{text-decoration:none}
-.pager span{display:inline-block;padding:8px 12px;background:#eee;color:#999;}
+.pager span{display:inline-block;padding:8px 12px;background:#cccccc;color:#999;}
 .pager .prev{position:fixed;top:50%;left:0;float:left;text-align:right;}
 .pager .prev a{float:left;margin-left:-174px;padding:8px 5px;}
 .pager .prev span{border-top-right-radius:5px;border-bottom-right-radius:5px;}
@@ -422,6 +422,13 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
     }
 }
 @media screen and (max-width: 480px) {
+	.container{
+		padding: 0;
+	}
+	
+	.content {
+		padding: 0;
+	}
     .header .avatar {
       margin-top: 0px;
       padding-bottom: 10px;
