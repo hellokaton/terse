@@ -195,10 +195,6 @@ img {
   padding-left: 0.5em;
 }
 
-.music-player{
-	height: 145px;
-}
-
 .archive_list h1{
   background-color:#F7F7F7;
   color:#33363B;
@@ -299,7 +295,12 @@ img {
   padding-left: 18px;
   list-style: none;
 }
-
+.entry-content iframe{
+	margin-bottom: -65px;
+}
+.music-tags{
+	margin: 0;
+}
 .footer{padding:25px 0;background-color:#292d33;color:#fff}
 .footer a{color:#fff;text-decoration:none}
 .footer a:hover{color:#60A9F7;}
@@ -428,9 +429,11 @@ kbd{padding:0.1em 0.6em;border:1px solid rgba(22,32,41,0.25);-webkit-box-shadow:
 	.container{
 		padding: 0;
 	}
-	
 	.content {
 		padding: 0;
+	}
+	.music-content{
+		max-width: 480px;
 	}
     .header .avatar {
       margin-top: 0px;
