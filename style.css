@@ -177,12 +177,15 @@ img {
   
   font-family:"Microsoft Jhenghei","Microsoft YaHei","微软雅黑","Droid Serif",Georgia,Serif;
 }
+
 .entry-title a {
   color:#333;
+  text-decoration:none;
+  position:relative; cursor:pointer;
 }
+
 .entry-title a:hover {
   color:#4d4c4d;
-  text-decoration:none;
 }
 
 .entry-left h1{
@@ -328,7 +331,7 @@ img {
 
 /*代码高亮*/
 
-blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #e4e9ec}
+blockquote{padding:10px 20px;margin:0 0 20px;border-left:2px solid #e4e9ec}
 blockquote p{font-size:17.5px;font-weight:300;line-height:1.25}
 blockquote p:last-child{margin-bottom:0}
 blockquote small{display:block;line-height:1.428571429;color:#999}
@@ -366,7 +369,7 @@ table th,table td{padding:8px;line-height:20px;text-align:left;vertical-align:to
 table th{font-weight:bold}
 table thead th{vertical-align:bottom}
 table tbody+tbody{border-top:2px solid #dddddd}
-blockquote{border-left-width:10px;background-color:#eff1f4;border-top-right-radius:5px;border-bottom-right-radius:5px;padding:15px 20px}
+blockquote{border-left-width:2px;background-color:#eff1f4;border-top-right-radius:2px;border-bottom-right-radius:2px;padding:15px 0}
 blockquote p{margin-bottom:15px;font-size:14px;line-height:1.428571429}
 blockquote ul:last-child,blockquote ol:last-child{margin-bottom:0}
 ul,ol{margin-bottom:15px}
