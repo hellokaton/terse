@@ -24,11 +24,11 @@
 
 1. 安装、启用主题
 
-	将下载的压缩包解压，放至你的主题文件夹下 `/usr/themes/Terse`
+	将下载的压缩包解压，放至 `/usr/themes/` 文件夹下
 
 2. 安装插件
 
-	友链插件：[Links](https://github.com/biezhi/terse/releases/download/0.0.1/Links.zip)
+	友链插件：[Links](https://github.com/biezhi/terse/releases/download/0.0.1/Links.zip)，解压放至 `/usr/plugins` 目录下
 
 3. 修改多说评论
 
