@@ -34,6 +34,7 @@
 	   $(".entry .fancy-ctn").fancybox();
 	</script>
 	<?php endif; ?>
+	<script type="text/javascript" src="<?php $this->options->themeUrl('js/prettify.js'); ?>"></script>
 	<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 </body>
 </html>

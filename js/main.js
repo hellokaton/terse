@@ -3,6 +3,10 @@ $('.loading').animate({'width':'100%'},50);
 $(document).ready(function(){
 	 $('.loading').fadeOut();
 
+   // 代码高亮
+   $("pre,code").addClass("prettyprint");
+   prettyPrint();
+
   // 标题带动画下划线
    if($(window).width() >= 768){
       $('.entry-title a').each(function() {

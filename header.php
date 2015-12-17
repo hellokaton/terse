@@ -11,9 +11,10 @@
     <link rel="Bootmark" href="<?php $this->options->siteIcon() ?>" />
 	<?php endif; ?>	
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-        <script type="text/javascript" src="//dn-biezhi.qbox.me/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/prettify_black.css'); ?>">
+	<script type="text/javascript" src="//dn-biezhi.qbox.me/jquery-2.1.4.min.js"></script>
 </head>
-<body>
+<body onload="prettyPrint()">
 	<div class="loading"></div>
 	<script type="text/javascript">
 	$('.loading').animate({'width':'30%'},50);
