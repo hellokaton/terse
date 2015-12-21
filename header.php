@@ -10,8 +10,10 @@
     <link rel="Shortcut Icon" href="<?php $this->options->siteIcon() ?>" />
     <link rel="Bootmark" href="<?php $this->options->siteIcon() ?>" />
 	<?php endif; ?>	
-	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+	
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/prettify_black.css'); ?>">
+	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+	
 	<script type="text/javascript" src="//dn-biezhi.qbox.me/jquery-2.1.4.min.js"></script>
 </head>
 <body onload="prettyPrint()">

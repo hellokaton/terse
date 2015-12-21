@@ -40,6 +40,16 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     z-index:99999;  /*提高进度条的优先层级，避免被其他层遮挡*/
 }
 
+/*代码高亮重置*/
+.prettyprint {
+    background: #2b303b;
+    font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 .backToTop {
     display: none;
     padding: 33px 20px;
